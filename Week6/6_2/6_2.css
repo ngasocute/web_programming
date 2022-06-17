@@ -1,0 +1,53 @@
+header {
+    color: white;
+    background-color: red;
+    width: 97%;
+    padding: 19px;
+}
+
+main .main1 {
+    width: 100%;
+    height: 230px;
+}
+
+main .content {
+    width: 70%;
+    margin-top: 20px;
+    float: left;
+    background-color: white;
+}
+
+main .sidebar {
+    width: 30%;
+    float: left;
+    background-color: wheat;
+}
+
+main .main2 {
+    width: 100%;
+    height: 50px;
+}
+
+main .main3 {
+    height: 200px;
+}
+
+main .main3 .main3-1 {
+    width: 70%;
+    float: left;
+    height: 200px;
+}
+
+main .main3 .main3-2 {
+    width: 30%;
+    height: 200px;
+    background-color: yellow;
+    float: left;
+}
+
+footer {
+    color: white;
+    background-color: blue;
+    width: 97%;
+    padding: 19px;
+}
