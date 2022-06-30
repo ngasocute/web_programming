@@ -2,18 +2,17 @@
 
 <head>
 </head>
-
 <body>
     <form name="myForm" onsubmit="return validateForm()" method="POST" action="#">
         <label>Username</label><input name="username" type="text" />
         <label>Email</label><input name="email" type="email" />
         <label>Telephone</label><input name="telephone" type="tel" />
-        <input type="submit" value="Validate"/>
+        <input type="submit" value="Validate" />
     </form>
     <script>
         // email regex
         const emailRegex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-        const phoneRegex =/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im
+        const phoneRegex = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im
         function validateForm() {
             const form = document.forms["myForm"];
             const username = form["username"].value;
