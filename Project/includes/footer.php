@@ -122,11 +122,11 @@
 			</div>
 
 			<div class="developer">
-				Dev by Yasser Dalouzi
+				Developer
 			</div>
 
 			<div class="designby">
-				Design by Yasser Dalouzi
+				Designer
 			</div>
 		</div>
 	</div>
