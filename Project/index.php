@@ -155,6 +155,65 @@ include("includes/main.php");
       </div>
 
     </footer>
+    <style>
+  @media only screen and (max-width: 600px) {
+  .hero {
+    width: 100vw;
+  }
+  header .container.clearfix{
+    
+    justify-content: space-around;
+
+  }
+  header .logo {
+    padding: 32px 0px;
+  }
+  .page-header__topline .login {
+    margin: 0 auto!important;
+  }
+  .hero  .btn1 {
+     position: static; 
+    line-height: 40px;
+    float: right;
+     right: 0; 
+     margin-right: 16px;
+     display: block;
+     top: 80px;
+    }
+    .wrapper {
+      width: auto;
+    padding: 20px;
+    margin: 20px;
+    }
+    .container {
+      width: auto;
+      max-width:  1170px;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .container .col-md-4.col-sm-6.single{
+      margin: 0 auto;
+      width: 90%;
+    }
+    .main {
+      max-width: 100vw!important;
+      overflow: hidden;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      width: 100vw; 
+      /* overflow: hidden; */
+      min-width: auto!important;
+    }
+    .categories {
+      display: none;
+
+    }
+}
+
+</style>
 </body>
 
 </html>

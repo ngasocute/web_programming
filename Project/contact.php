@@ -10,9 +10,9 @@ include("includes/main.php");
 ?>
 
 
-  <!-- MAIN -->
+  
   <main>
-    <!-- HERO -->
+    
     <div class="nero">
       <div class="nero__heading">
         <span class="nero__bold">Contact</span> Us
@@ -23,13 +23,13 @@ include("includes/main.php");
     </div>
   </main>
 
-<div class="col-md-12" ><!-- col-md-12 Starts -->
+<div class="col-md-12" >
 
-<div class="box" ><!-- box Starts -->
+<div class="box" >
 
-<div class="box-header" ><!-- box-header Starts -->
+<div class="box-header" >
 
-<center><!-- center Starts -->
+<center>
 
 <?php
 
@@ -53,51 +53,51 @@ $contact_email = $row_conatct_us['contact_email'];
 <?php echo $contact_desc; ?>
 </p>
 
-</center><!-- center Ends -->
+</center>
 
-</div><!-- box-header Ends -->
+</div>
 
-<form action="contact.php" method="post" ><!-- form Starts -->
+<form action="contact.php" method="post" >
 
-<div class="form-group" ><!-- form-group Starts -->
+<div class="form-group" >
 
 <label>Name</label>
 
 <input type="text" class="form-control" name="name" required>
 
-</div><!-- form-group Ends -->
+</div>
 
-<div class="form-group"><!-- form-group Starts -->
+<div class="form-group">
 
 <label>Email</label>
 
 <input type="text" class="form-control" name="email" required>
 
-</div><!-- form-group Ends -->
+</div>
 
-<div class="form-group"><!-- form-group Starts -->
+<div class="form-group">
 
 <label> Subject </label>
 
 <input type="text" class="form-control" name="subject" required>
 
-</div><!-- form-group Ends -->
+</div>
 
-<div class="form-group"><!-- form-group Starts -->
+<div class="form-group">
 
 <label> Message </label>
 
 <textarea class="form-control" name="message"> </textarea>
 
-</div><!-- form-group Ends -->
+</div>
 
 
-<div class="form-group"><!-- form-group Starts -->
+<div class="form-group">
 
 <label> Select Enquiry Type </label>
 
 
-<select name="enquiry_type" class="form-control"><!-- select Starts -->
+<select name="enquiry_type" class="form-control">
 
 <option> Select Enquiry Type </option>
 
@@ -117,12 +117,12 @@ echo "<option> $enquiry_title </option>";
 
 ?>
 
-</select><!-- select Ends -->
+</select>
 
-</div><!-- form-group Ends -->
+</div>
 
 
-<div class="text-center"><!-- text-center Starts -->
+<div class="text-center">
 
 <button type="submit" name="submit" class="btn btn-primary">
 
@@ -130,9 +130,9 @@ echo "<option> $enquiry_title </option>";
 
 </button>
 
-</div><!-- text-center Ends -->
+</div>
 
-</form><!-- form Ends -->
+</form>
 
 <?php
 
@@ -189,14 +189,14 @@ echo "<h2 align='center'>Your message has been sent successfully</h2>";
 
 ?>
 
-</div><!-- box Ends -->
+</div>
 
-</div><!-- col-md-12 Ends -->
+</div>
 
 
 
-</div><!-- container Ends -->
-</div><!-- content Ends -->
+</div>
+</div>
 
 
 
